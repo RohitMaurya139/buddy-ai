@@ -1,0 +1,102 @@
+
+
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# PM2 logs
+.pnpm-store/
+
+# Debug output
+npm-debug.log*
+yarn-debug.log*
+
+# dotenv environment
+.env
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Local certificates
+cert.pem
+key.pem
+
+
+
+# Production build
+dist/
+dist-ssr/
+*.local
+
+# Cache
+.cache/
+.vite/
+vite.config.ts.timestamp*
+vite.config.js.timestamp*
+
+# Local environment files
+.env
+.env.*.local
+
+# Static uploads (optional: keep if needed)
+public/uploads/
+uploads/
+
+
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# JetBrains / WebStorm
+.idea/
+
+# Others
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+
+coverage/
+nyc_output/
+
+
+
+tmp/
+temp/
