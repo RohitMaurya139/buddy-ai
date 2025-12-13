@@ -188,6 +188,15 @@ function App() {
           <p className="text-xs text-slate-500 text-center mt-3">
             Buddy AI can make mistakes. Consider checking important information.
           </p>
+          <p className="text-xs text-slate-500 text-center mt-3 flex items-center justify-center gap-2">
+            Made with ❤ by{" "}
+            <a
+              href="https://rm-portfolio-zeta.vercel.app/"
+              className="text-blue-500"
+            >
+              Rohit Maurya
+            </a>
+          </p>
         </div>
       </div>
     </div>
