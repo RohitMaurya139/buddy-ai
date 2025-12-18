@@ -37,8 +37,6 @@ build/
 cert.pem
 key.pem
 
-
-
 # Production build
 dist/
 dist-ssr/

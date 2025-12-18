@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { generate } from "./chatbot.js";
+import { chatbot } from "./agent.js";
 
 const app = express();
 const port = 3000;
@@ -37,7 +38,7 @@ app.post("/api/buddy-ai", async (req, res) => {
     console.log("User input:", input, "| threadId:", threadId);
 
     // Process AI
-    const aiResponse = await generate(input, threadId);
+    const aiResponse = await chatbot(input, threadId);
 
     // ❗ FIX 2 — Return response ONCE
     return res.json({ message: aiResponse });
